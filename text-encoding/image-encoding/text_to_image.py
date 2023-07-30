@@ -30,6 +30,6 @@ def text_to_image(input_file, output_image):
     image.save(output_image)
 
 # Usage example:
-input_file = 'input.txt'
-output_image = 'output_image.png'
+input_file = '../input.txt'
+output_image = '../../output/output_image.png'
 text_to_image(input_file, output_image)

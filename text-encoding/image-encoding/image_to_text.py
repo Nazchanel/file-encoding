@@ -1,4 +1,7 @@
+# Run `text_to_image.py` first to generate the image file, then run this script to convert the image back to text.
+
 from PIL import Image
+from os import chdir
 
 def image_to_text(input_image, output_file):
     # Open the image
@@ -26,6 +29,6 @@ def image_to_text(input_image, output_file):
         file.write(text)
 
 # Usage example:
-input_image = 'output_image.png'
-output_file = 'output.txt'
+input_image = '../../output/output_image.png'
+output_file = '../../output/output.txt'
 image_to_text(input_image, output_file)
