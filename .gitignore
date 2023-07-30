@@ -9,3 +9,8 @@ output/*
 
 # Ignoring input files
 *.txt
+
+# Ignores my input binaries
+*.pdf
+*.bin
+*.exe
