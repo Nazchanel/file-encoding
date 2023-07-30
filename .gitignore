@@ -1,5 +1,11 @@
+# IDE settings
 .vscode
 .idea
 
+# Ignore all files in the output folder
 output/*
+
+!output/files-outputed-here
+
+# Ignoring input files
 *.txt
