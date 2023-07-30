@@ -5,7 +5,7 @@
 # Ignore all files in the output folder
 output/*
 
-!output/files-outputed-here
+!output/README.md
 
 # Ignoring input files
 *.txt
